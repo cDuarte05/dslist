@@ -28,7 +28,7 @@ public class Game {
 	@Column(columnDefinition = "TEXT")
 	private String shortDescription;
 
-	@Column(columnDefinition = "TEXT")
+	@Column(columnDefinition = "TEXT") //para aumentar o limite de caracteres
 	private String longDescription;
 	
     public Game() {
